@@ -26,6 +26,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     var Locationlongitude : Double = 0.0
     let apiKeyID = "d324702e67d2d8f98ceb69c10631e313"
     
+    let locationManager : CLLocationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         locationManager.delegate = self

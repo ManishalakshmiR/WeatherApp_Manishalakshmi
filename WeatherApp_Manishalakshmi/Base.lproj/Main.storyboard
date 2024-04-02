@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,13 +22,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="253"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LlO-Hg-c0w">
-                                                <rect key="frame" x="175.66666666666666" y="15" width="42" height="0.0"/>
+                                                <rect key="frame" x="196.66666666666666" y="15" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xw3-qC-ttX">
-                                                <rect key="frame" x="196.66666666666666" y="40" width="0.0" height="0.0"/>
+                                                <rect key="frame" x="196.66666666666666" y="70" width="0.0" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -42,16 +41,14 @@
                                                 </constraints>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="KIN-Mp-GSf" secondAttribute="bottom" constant="20" id="32s-cP-1YE"/>
                                             <constraint firstAttribute="trailing" secondItem="KIN-Mp-GSf" secondAttribute="trailing" constant="139" id="3p2-vF-7SH"/>
-                                            <constraint firstItem="xw3-qC-ttX" firstAttribute="centerX" secondItem="LlO-Hg-c0w" secondAttribute="centerX" id="91L-Ap-6RP"/>
-                                            <constraint firstItem="LlO-Hg-c0w" firstAttribute="leading" secondItem="s9S-h0-s8G" secondAttribute="leading" constant="175.5" id="SFl-hg-fw0"/>
-                                            <constraint firstAttribute="trailing" secondItem="LlO-Hg-c0w" secondAttribute="trailing" constant="175.5" id="TMh-H7-PrR"/>
+                                            <constraint firstItem="xw3-qC-ttX" firstAttribute="centerX" secondItem="s9S-h0-s8G" secondAttribute="centerX" id="8R0-nT-doO"/>
+                                            <constraint firstItem="LlO-Hg-c0w" firstAttribute="top" secondItem="s9S-h0-s8G" secondAttribute="top" constant="15" id="CJ6-Tw-P4O"/>
                                             <constraint firstItem="KIN-Mp-GSf" firstAttribute="leading" secondItem="s9S-h0-s8G" secondAttribute="leading" constant="139" id="U18-Um-Fvc"/>
-                                            <constraint firstItem="xw3-qC-ttX" firstAttribute="top" secondItem="LlO-Hg-c0w" secondAttribute="bottom" constant="25" id="Wdv-VC-V5D"/>
-                                            <constraint firstItem="LlO-Hg-c0w" firstAttribute="top" secondItem="s9S-h0-s8G" secondAttribute="top" constant="15" id="fka-VP-65h"/>
+                                            <constraint firstItem="xw3-qC-ttX" firstAttribute="top" secondItem="s9S-h0-s8G" secondAttribute="top" constant="70" id="bYQ-pe-FiS"/>
+                                            <constraint firstItem="LlO-Hg-c0w" firstAttribute="centerX" secondItem="s9S-h0-s8G" secondAttribute="centerX" id="o1l-Of-Uy0"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gcM-Uw-LGY">
@@ -76,7 +73,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="FTV-Pe-yVf" firstAttribute="centerX" secondItem="gcM-Uw-LGY" secondAttribute="centerX" id="7Pv-d5-Z3s"/>
                                             <constraint firstItem="k2l-2z-X7f" firstAttribute="top" secondItem="r40-MO-zkB" secondAttribute="bottom" constant="30" id="IPX-gw-6US"/>
@@ -88,13 +84,13 @@
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dip-qP-bWf">
                                         <rect key="frame" x="0.0" y="506" width="393" height="253"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.62745098040000002" green="0.69803921570000005" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.62745098040000002" green="0.69803921570000005" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="J7i-BP-z4Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3uy-Aa-TRj"/>
                             <constraint firstItem="J7i-BP-z4Z" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="KQU-dB-dYg"/>
@@ -116,9 +112,4 @@
             <point key="canvasLocation" x="32.824427480916029" y="3.5211267605633805"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>
